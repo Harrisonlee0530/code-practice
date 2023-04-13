@@ -9,3 +9,9 @@ m = 0.131/(6.022*10**23)
 mu = k_1 * T * np.log((p/(k*T))*(h**3)/(2*np.pi*m*k*T)**(1.5))
 
 print(mu)
+
+print(mu)
+m2 = np.exp ( (k_1*T*(np.log(p*h**3/(k*T))-1.5*np.log(2*np.pi*k*T))+0.6)/(1.5*k_1*T) )
+print(m)
+mu2 = k_1 * T * np.log((p/(k*T))*(h**3)/(2*np.pi*m*k*T)**(1.5)/300)
+print(mu2)
